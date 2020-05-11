@@ -1,0 +1,4 @@
+int dup2(int oldfd,int newfd)
+    assign newfd to resource having oldfd. 
+    
+ e.g. dup2(filefd,1);  //make file pointed by filefd to act as stdout
